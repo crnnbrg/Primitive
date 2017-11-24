@@ -8,7 +8,7 @@ setup(
         "click",
     ],
     entry_points="""
-        [console_scripts],
+        [console_scripts]
         primefeed=primefeed:cli
     """,
     )
