@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 
 comment = input("Stuff: ")
+@click.command()
 @app.route('/post/<postid>/<commentid>' methods=['GET'])
 def view_post():
     return jsonify comment
