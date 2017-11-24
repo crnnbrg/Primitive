@@ -1,3 +1,4 @@
+
 import click 
 import requests
 import sys
@@ -15,4 +16,10 @@ def cli(title, body):
     }
     response = requests.post("https://jsonplaceholder.typicode.com/posts", data=data)
     print(response.status_code)
+    
+@click.command()
+@click.argument('post_id')
 
+def view_post(post_id):
+	response = (requests='https://jsonplaceholder.typicode.com/comments?postId='+f(post_id))
+	click.echo(response)
