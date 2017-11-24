@@ -2,7 +2,7 @@
 
 > A primitive news feed is very simple application that allows users to post information to a feed and also view information on the feed
 
-# Run
+## Run
 
 1. Clone the repo
 ```
@@ -17,4 +17,11 @@ virtualenv venv
 3. Install dependencies
 ```
 pip install --editable .
+```
+
+## Usage
+
+Creating a new post:
+```
+$ primefeed <title> <body>
 ```
