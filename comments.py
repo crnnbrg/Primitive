@@ -13,6 +13,7 @@ def get_random_id():
 	random_id = random.randrange(1, 100000)
 	return random_id
 
+
 def add_comment(self, post_id, title, body):
 	# This method will make an API call to add a comment to a given post
 	self.post_id = get_random_id()
