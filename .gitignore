@@ -1,3 +1,6 @@
+
+/venv
 primefeed.egg-info/
 env/
 __pycache__/
+
