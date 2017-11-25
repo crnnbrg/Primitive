@@ -5,11 +5,16 @@
 
 ## Table of Contents
 
+- [Demo](#demo)
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainers](#maintainers)
 - [License](#license)
 
+
+## Demo
+
+[Showterm](http://showterm.io/ccb1d56f02e8ffec5143a#fast)
 
 ## Install
 
