@@ -18,9 +18,9 @@
 $ git clone [URL]
 ```
 
-2. Create a virtual environment
+2. Create a virtual environment and activate it
 ```
-virtualenv venv
+virtualenv venv && source ./venv/bin/activate
 ```
 
 3. Install dependencies
