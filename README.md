@@ -6,6 +6,7 @@
 ## Table of Contents
 
 - [Demo](#demo)
+- [Technologies used](#technologies-used)
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainers](#maintainers)
@@ -15,6 +16,10 @@
 ## Demo
 
 [Showterm](http://showterm.io/ccb1d56f02e8ffec5143a#fast)
+
+## Technologies used
+
+`Python` `Click` `Requests`
 
 ## Install
 
