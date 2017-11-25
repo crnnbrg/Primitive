@@ -1,6 +1,5 @@
 import click
 import requests
-import sys
 
 
 @click.group()
@@ -26,11 +25,9 @@ def view_feed():
 @click.argument("body")
 def post(title, body):
     """Submit a new post to the feed."""
-    post_title = sys.argv[1]
-    post_body = sys.argv[2]
     data = {
-        "title": post_title,
-        "body": post_body
+        "title": title,
+        "body": body
     }
     response = requests.post("https://jsonplaceholder.typicode.com/posts", data=data)
     click.echo("Response: " + str(response.status_code))
@@ -48,3 +45,20 @@ def view_comments(post_id):
         click.echo("Email: " + comment["email"])
         click.echo("Body: " + comment["body"])
         click.echo("" * 20)
+
+
+@cli.command()
+@click.argument('post_id')
+@click.argument('title')
+@click.argument('body')
+def comment(post_id, title, body):
+    """Add a comment to a post."""
+    data = {
+        "postId": post_id,
+        "title": title,
+        "body": body
+    }
+
+    response = requests.post("https://jsonplaceholder.typicode.com/comments?postId=" + "{}".format(post_id), data=data)
+    click.echo(response.status_code)
+    click.echo(data)
