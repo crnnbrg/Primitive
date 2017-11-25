@@ -50,6 +50,11 @@ $ primefeed view_feed
 $ primefeed view_comments <postId>
 ```
 
+- Submitting a comment to a post.
+```
+$ primefeed comment <postId> <title> <body>
+```
+
 - Access the help menu:
 ```
 $ primefeed --help
