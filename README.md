@@ -65,9 +65,9 @@ $ primefeed comment <postId> <title> <body>
 $ primefeed --help
 ```
 
-## Maintainers
+## Maintainershttps://github.com/daurice
 
-[@joewachira](https://github.com/joewachira) [@Kalela](https://github.com/Kalela) [@paulkariukirimiru](https://github.com/PaulKariukiRimiru) [@edwardmudaida](https://github.com/EdwardMudaida)
+[@joewachira](https://github.com/joewachira) [@dorismugah](https://github.com/daurice) [@Kalela](https://github.com/Kalela) [@paulkariukirimiru](https://github.com/PaulKariukiRimiru) [@edwardmudaida](https://github.com/EdwardMudaida)
 
 PRs accepted.
 
