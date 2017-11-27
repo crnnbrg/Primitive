@@ -30,12 +30,13 @@ $ git clone [URL]
 
 2. Create a virtual environment and activate it
 ```
-virtualenv venv && source ./venv/bin/activate
+$ virtualenv venv && source ./venv/bin/activate
 ```
 
 3. Install dependencies
 ```
-pip install --editable .
+$ pip install --editable .
+$ pip install requests
 ```
 
 ## Usage
