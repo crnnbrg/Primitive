@@ -34,8 +34,9 @@ $ virtualenv venv && source ./venv/bin/activate
 ```
 
 3. Install dependencies
+
+`$ pip install --editable .` or `$ python setup.py develop`
 ```
-$ pip install --editable .
 $ pip install requests
 ```
 
