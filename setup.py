@@ -5,7 +5,7 @@ setup(
     version="0.1",
     py_modules=["primefeed"],
     install_requires=[
-        "click",
+        "click", "requests",
     ],
     entry_points="""
         [console_scripts]
